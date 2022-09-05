@@ -1,0 +1,106 @@
+.cabecario {
+  width: auto;
+  background: blue;  
+  height: 150px;
+}
+.titulo {
+    text-align: center;
+    padding-top: 60px;
+}
+.bloco-tabela {
+    width: auto;
+    height: 350px;
+}
+.tabela-imc {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 250px;
+}
+.paciente {
+    
+    
+}
+.nome-cabecario {
+    width: 400px;
+    text-align: left;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.peso-cabecario {
+    width: 100px;
+    text-align: center;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.altura-cabecario {
+    width: 100px;
+    text-align: center;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.imc-cabecario {
+    width: 100px;
+    text-align: center;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.nome {
+    width: 400px;
+    text-align: left;
+    border: 2px solid;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.peso {
+    width: 100px;
+    text-align: center;
+    border: 2px solid;
+    font-size: 16px;
+    
+}
+.altura {
+    width: 100px;
+    text-align: center;
+    border: 2px solid;
+    font-size: 16px;
+    
+}
+.imc {
+    width: 100px;
+    text-align: center;
+    border: 2px solid;
+    font-size: 16px;
+    
+}
+.rodape {
+    width: auto;
+    background: blue;  
+    height: 100px;
+}
+.erro {
+    background: red;
+}
+.formulario-paciente {
+    width: 400px;
+    border: solid 3px;
+}
+.formulario-peso {
+    width: 50px;
+    border: solid 3px;
+}
+.formulario-altura {
+    width: 50px;
+    border: solid 3px;
+}
+.formulario {
+    padding-top: 150px;
+    padding-left: 250px;
+}
