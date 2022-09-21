@@ -17,8 +17,10 @@
     </header>
 
     <main class="bloco-tabela">
+        <input class="filtro" placeholder="Filtro">
+
         <table class="tabela-imc">
-            <tr class="paciente-cabecario">
+            <tr class="paciente-cabecario" >
                 <td class="nome-cabecario">Nome</td>
                 <td class="peso-cabecario">Peso</td>
                 <td class="altura-cabecario">Altura</td>
@@ -26,7 +28,7 @@
             </tr>
             <tr class="paciente">
                 <td class="nome">Jackson</td>
-                <td class="peso">-84</td>
+                <td class="peso">84</td>
                 <td class="altura">1.80</td>
                 <td class="imc">0</td>
             </tr>   
@@ -37,11 +39,13 @@
                 <td class="imc">0</td>
             </tr>           
         </table>
-
+        <ul id="mensagem-erro">
+            
+        </ul>
         <form class="formulario">
 
-            <label for="paciente">Paciente</label>
-            <input id="paciente" type="text" class="formulario-paciente">
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" class="formulario-nome">
 
             <label for="peso">Peso</label>
             <input id="peso" class="formulario-peso">
@@ -49,20 +53,21 @@
             <label for="altura">Altura</label>
             <input id="altura" class="formulario-altura">
 
-            <button>Enviar</button>
+            <button class="envia-formulario" >Enviar</button>
        </form>
 
 
     </main>
 
     <footer>
-        <div class="rodape">
-            <h1 class="titulo">Volte sempre!!!</h1>
-        </div>
+        
 
     </footer>
 
     <script src="./JS/calculaImc.js"></script>
+    <script src="./JS/form.js"></script>
+    <script src="./JS/filtro.js"></script>
+    <script src="./JS/removendo.js"></script>
     
     
 </body>

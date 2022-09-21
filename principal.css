@@ -13,12 +13,8 @@
 }
 .tabela-imc {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 5px;
     padding-left: 250px;
-}
-.paciente {
-    
-    
 }
 .nome-cabecario {
     width: 400px;
@@ -88,7 +84,7 @@
 .erro {
     background: red;
 }
-.formulario-paciente {
+.formulario-nome {
     width: 400px;
     border: solid 3px;
 }
@@ -102,5 +98,24 @@
 }
 .formulario {
     padding-top: 150px;
+    padding-left: 250px;
+}
+.filtro {
+    margin-left: 250px;
+    margin-top: 50px;
+    width: 300px;
+    padding: 8px 20px;
+    
+}
+.invisivel {
+    display: none;
+}
+
+.efeito-visual-exclusão {
+    opacity: 0;
+    transition: 0.5s;
+}
+#mensagem-erro {
+    color: red;
     padding-left: 250px;
 }
